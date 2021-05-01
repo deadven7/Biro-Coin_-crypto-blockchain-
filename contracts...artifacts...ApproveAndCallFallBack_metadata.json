@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Biro.sol": "ApproveAndCallFallBack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Biro.sol": {
+			"keccak256": "0xd463b93689471add35f622082ebe25f6adb957340e2696d4ea484c11d7aeb854",
+			"urls": [
+				"bzz-raw://e0bffb16a94cc2dc58a8116b51c3c01f58ca5d4d2900b55f667432881dd0db4b",
+				"dweb:/ipfs/QmS2XtSdB6bmMCheCf7H2TfC8mDizQpnFeanPWzSKeXwm1"
+			]
+		}
+	},
+	"version": 1
+}
